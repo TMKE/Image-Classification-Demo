@@ -3,5 +3,16 @@
     <style name="Base.Theme.Demo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/dark_1</item>
+
+        <item name="primaryColor">@color/dark_1</item>
+        <item name="primaryColorVariant">@color/dark_blue</item>
+        <item name="primaryTextColor">@color/white</item>
+        <item name="secondaryColor">@color/dark_2</item>
+        <item name="secondaryTextColor">@color/dark_3</item>
+        <item name="accentColor">@color/lime_green</item>
+
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
     </style>
 </resources>

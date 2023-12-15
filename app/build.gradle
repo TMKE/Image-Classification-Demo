@@ -47,8 +47,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     // tensorflow lite dependencies
-    implementation 'org.tensorflow:tensorflow-lite-support:0.4.3'
-    implementation 'org.tensorflow:tensorflow-lite-metadata:0.4.3'
+    // implementation 'org.tensorflow:tensorflow-lite-support:0.4.3'
+    // implementation 'org.tensorflow:tensorflow-lite-metadata:0.4.3'
 
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // pytorch dependencies
+    implementation 'org.pytorch:pytorch_android:1.12'
+    // implementation 'org.pytorch:pytorch_android_lite:1.12'
+    implementation 'org.pytorch:pytorch_android_torchvision:1.12'
 }

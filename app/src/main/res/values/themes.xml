@@ -3,7 +3,21 @@
     <style name="Base.Theme.Demo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/gray_1</item>
+
+        <item name="primaryColor">@color/gray_1</item>
+        <item name="primaryColorVariant">@color/white</item>
+        <item name="primaryTextColor">@color/dark_blue</item>
+        <item name="secondaryColor">@color/gray_2</item>
+        <item name="secondaryTextColor">@color/gray_3</item>
+        <item name="accentColor">@color/lime_green</item>
+
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.Demo" parent="Base.Theme.Demo" />
+
 </resources>
